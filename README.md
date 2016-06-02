@@ -23,7 +23,16 @@ For all integrations, you will have to provide a **Name** value. Choose somethin
 ## Setting up SQL Integrations
 In order to query data from your SQL database, you must ensure that it is properly configured to allow connections from our servers. In many cases, this is as simple as having your database administrator configure your database to accept connections from our IP address: `52.25.129.138/32`.
 
+It is also generally advisible to have your DB administrator create a read-only account specifically for the DataBlade integration. 
+
 If your database is behind a private network or if you need help setting up your connection, please contact us at support@datablade.io.
+
+### SSL Certificates
+If your database accepts encrypted connections, we recomend all users to set up their SQL integration with an SSL Root Certificate configured.
+
+If you are using Amazon RDS, you can find the root certificate [here](https://s3.amazonaws.com/rds-downloads/rds-ca-2015-root.pem).
+
+If you are using Amazon Redshift, you can find the root certificate [here](https://s3.amazonaws.com/redshift-downloads/redshift-ssl-ca-cert.pem).
 
 ## Creating a new Project
 
