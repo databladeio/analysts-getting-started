@@ -20,6 +20,11 @@ Most integration types can be authenticated using a single click via OAuth. For 
 
 For all integrations, you will have to provide a **Name** value. Choose something that will help you remember what data is associated with the underlying source.
 
+## Setting up SQL Integrations
+In order to query data from your SQL database, you must ensure that it is properly configured to allow connections from our servers. In many cases, this is as simple as having your database administrator configure your database to accept connections from our IP address: `52.25.129.138/32`.
+
+If your database is behind a private network or if you need help setting up your connection, please contact us at support@datablade.io.
+
 ## Creating a new Project
 
 To create a new Project, click the **Projects** button on the left. Enter a name for your project at the field at the top of the page and click **Create Project**.
