@@ -35,9 +35,12 @@ If you are using Amazon RDS, you can find the root certificate [here](https://s3
 If you are using Amazon Redshift, you can find the root certificate [here](https://s3.amazonaws.com/redshift-downloads/redshift-ssl-ca-cert.pem).
 
 ### Setting up Google BigQuery
-1. Ensure that you [create or select a project in the Google Developers Console and enable the BigQuery API](https://console.developers.google.com//start/api?id=bigquery&credential=client_key)
-2. If you already have a service account with a P12 key, you can skip this step. Otherwise, in the Developers Console for the chosen project, under **APIs & auth**, select **Credentials**. In the **Add credentials** dropdown, choose **Service account**. For **Key type**, select **P12**, then click **Create**. The private key should automatically download. Click **Close** in the dialog.
-3. In DataBlade, set up a BigQuery integration, providing the service email account, the generated `.p12` file, and the associated project ID.
+1. [Enable the BigQuery API](https://console.developers.google.com//start/api?id=bigquery&credential=client_key) for the project that you want to query data from.
+2. If you already have a service account with a P12 key, you can skip this step. Otherwise, in the [Developers Console](https://console.cloud.google.com) for the chosen project, under **API Manager**, select [**Credentials**](https://console.cloud.google.com/apis/credentials). In the **Create Credentials** dropdown, choose **Service account key**. Select **New service account** in the dropdown and name it DataBlade. For **Key type**, select **P12**, then click **Create**. The private key should automatically download. Click **Close** in the dialog.
+3. On the main **Credentials** page, click [**Manage service accounts**](https://console.cloud.google.com/iam-admin/serviceaccounts/project) and take note of the **Service account ID** for the service account you just created (it has the format of an email address).
+4. In DataBlade, set up a BigQuery integration, providing the service email account (aka account ID), the generated `.p12` file, and the associated project ID.
+
+<img width="609" alt="screen shot 2016-06-02 at 8 12 36 am" src="https://cloud.githubusercontent.com/assets/1543187/15750163/3c19d962-289a-11e6-8ee1-d8e13a3ff9b6.png">
 
 ## Creating a new Project
 
