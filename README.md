@@ -27,12 +27,13 @@ DataBlade uses OAuth to connect to Salesforce, so setting up your integration is
 ### Setting up SQL Integrations
 In order to query data from your SQL database, you must ensure that it is properly configured to allow connections from our servers. In many cases, this is as simple as having your database administrator configure your database to accept connections from our IP address: `52.25.129.138/32`.
 
-It is also generally advisible to have your DB administrator create a read-only account specifically for the DataBlade integration. 
-
-If your database is behind a private network or if you need help setting up your connection, please contact us at support@datablade.io.
+#### Security Best Practices
+- It is recommended to have your DB administrator create a read-only account specifically for the DataBlade integration, and for this account to only have access to the relevant tables.
+- It is recommended to provide DataBlade an SSL certificate for connecting to your SQL database.
+- If your database is behind a private network or if you need help setting up your connection, please contact us at support@datablade.io.
 
 #### SSL Certificates
-If your database accepts encrypted connections, we recomend all users to set up their SQL integration with an SSL Root Certificate configured.
+If your database accepts encrypted connections, we recomend all users to set up their SQL integration with an SSL Root Certificate configured. Please contact your DB admin to obtain the necessary certificate.
 
 If you are using Amazon RDS, you can find the root certificate [here](https://s3.amazonaws.com/rds-downloads/rds-ca-2015-root.pem).
 
