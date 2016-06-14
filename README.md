@@ -89,6 +89,11 @@ Once you have more than one data source module set up, you can now join and aggr
 
 ![join](https://cloud.githubusercontent.com/assets/1543187/14905625/48342552-0d67-11e6-80a1-32a76fe7132f.png)
 
+### User-Uploaded Files
+For certain sets of data, it may be most convenient to simply upload CSVs directly to DataBlade. You can do this on the **Data Integrations** page by clicking **Upload CSV**. Once you uploaded a CSV, you can use that data as part of a report by selecting **File Upload** in the Data Source dropdown in the Project interface.
+
+In the File Upload module, you can select from all the files uploaded in your account. By default, we will load all the data from the CSV, but by using the **SQL Filter** field, you can treat your CSV as if it were a SQL database. This allows you to filter and modify the data as needed for a report by using SQL queries.
+
 ### Excel Integration
 
 The data displayed in the Project interface is a preview to help you define your queries and joins properly. Only 100 rows of each data set are displayed to you in the browser. In order to retrieve the entire data set, click the **Download Report to Excel** button in the top right.
