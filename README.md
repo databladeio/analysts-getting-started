@@ -73,6 +73,8 @@ Each data source presents a query builder specifically designed to help you easi
 
 You can add multiple sources to bring in disparate data that is functionally related together into the same project.
 
+### Running a Project
+
 Once you've set up your queries, hit the **Run Query** button at the top of the Project interface to fetch the data. You will see your results appear as tabs on the right side of the interface.
 
 ### Cleansing and Normalizing Data
