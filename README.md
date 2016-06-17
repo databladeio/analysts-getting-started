@@ -7,6 +7,14 @@ Whether it's data from Google Analytics, Facebook, Salesforce, or your own inter
 
 *It's your data, in one central place, at your fingertips.*
 
+
+### Table of Contents
+
+- [Adding Data Integrations](#adding-data-integrations)
+- [Creating a New Project](#creating-a-new-project)
+- [Scheduling Projects](#scheduling-projects)
+
+
 ## Adding Data Integrations
 In order to access your data, you must first add your various sources as Data Integrations.
 
@@ -55,7 +63,7 @@ If you have a Google account that has access to the BigQuery tables you want to 
 
 <img width="609" alt="screen shot 2016-06-02 at 8 12 36 am" src="https://cloud.githubusercontent.com/assets/1543187/15750163/3c19d962-289a-11e6-8ee1-d8e13a3ff9b6.png">
 
-## Creating a new Project
+## Creating a New Project
 
 To create a new Project, click the **Projects** button on the left. Enter a name for your project at the field at the top of the page and click **Create Project**.
 
@@ -118,7 +126,7 @@ Click the **Download Report to Excel** to download the initial, raw report. Then
 
 All subsequent downloads of the Excel report for this project will be generated with your additional summary sheets included.
 
-### Scheduling Jobs
+## Scheduling Projects
 
 In order to schedule your Project to be automatically run, hit the **Schedule** button in the top right. You will be prompted to define and schedule and list the emails you would like the output to be sent to. The resulting email will contain an attachment of the resulting Excel report. If you have an Excel template defined, it will generate using the template as a base.
 
