@@ -45,7 +45,7 @@ If you have a Google account that has access to the BigQuery tables you want to 
 **NOTE:** BigQuery datasets that have been shared with you will **NOT** be accessible via DataBlade. You must at least be a Viewer of the Google Cloud project that owns the BigQuery datasets you want to access. This will give you direct access to the BigQuery datasets, and in turn, the ability to use DataBlade to query those datasets. If you aren't sure if this is the case, contact your Google Cloud admin. See [here](https://cloud.google.com/sql/docs/add-member-to-project) for instructions on how to add a user to a project.
 
 1. [Enable the BigQuery API](https://console.developers.google.com//start/api?id=bigquery&credential=client_key) for the project that you want to query data from.
-2. In DataBlade, set up a BigQuery (OAuth) integration by providing a name andthen clicking **Authenticate with Google**.
+2. In DataBlade, set up a BigQuery (OAuth) integration by providing a name and then clicking **Authenticate with Google**.
 
 ### Setting up Google BigQuery (Service Account)
 1. [Enable the BigQuery API](https://console.developers.google.com//start/api?id=bigquery&credential=client_key) for the project that you want to query data from.
