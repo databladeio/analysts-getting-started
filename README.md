@@ -41,7 +41,7 @@ In order to query data from your SQL database, you must ensure that it is proper
 - If your database is behind a private network or if you need help setting up your connection, please contact us at support@datablade.io.
 
 #### SSL Certificates
-If your database accepts encrypted connections, we recomend all users to set up their SQL integration with an SSL Root Certificate configured. Please contact your DB admin to obtain the necessary certificate.
+If your database accepts encrypted connections, we recommend all users to set up their SQL integration with an SSL Root Certificate configured. Please contact your DB admin to obtain the necessary certificate.
 
 If you are using Amazon RDS, you can find the root certificate [here](https://s3.amazonaws.com/rds-downloads/rds-ca-2015-root.pem).
 
