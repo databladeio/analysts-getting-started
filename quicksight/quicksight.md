@@ -2,6 +2,8 @@
 
 ![](http://datablade.io/qs-flow.png)
 
+Watch the [overview video](https://www.youtube.com/watch?v=yFRIXX5wqzQ)!
+
 [Amazon QuickSight](https://quicksight.aws/) is a fast, cloud-powered business analytics service that makes it easy to build visualizations, perform ad-hoc analysis, and quickly get business insights from your data.
 
 While QuickSight has great integration with 1st party data sources like internal databases, building custom data feeds, especially from 3rd party data sources like Google Analytics, can be challenging and require significant engineering effort.
