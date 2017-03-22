@@ -33,7 +33,12 @@ For all integrations, you will have to provide a **Name** value. Choose somethin
 DataBlade uses OAuth to connect to Salesforce, so setting up your integration is typically as easy as following the login prompts on the screen. However, an important thing to note is that your organization must be using an edition of Salesforce that has *API access enabled*. See [here](https://help.salesforce.com/apex/HTViewSolution?urlname=Enabling-API&language=en_US) for more info.
 
 ### Setting up SQL Integrations
-In order to query data from your SQL database, you must ensure that it is properly configured to allow connections from our servers. In many cases, this is as simple as having your database administrator configure your database to accept connections from our IP address: `52.25.129.138/32`.
+In order to query data from your SQL database, you must ensure that it is properly configured to allow connections from our servers. In many cases, this is as simple as having your database administrator configure your database to accept connections from our IP addresses:
+```
+52.25.129.138/32
+104.198.5.177/32
+104.196.226.127/32
+```
 
 #### Security Best Practices
 - It is recommended to have your DB administrator create a read-only account specifically for the DataBlade integration, and for this account to only have access to the relevant tables.
